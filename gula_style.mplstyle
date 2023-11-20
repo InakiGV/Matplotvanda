@@ -1,0 +1,18 @@
+text.usetex: True
+font.family: 'serif'
+figure.figsize: 6, 4.5 # Tamaño predeterminado de la figura (ancho x alto en pulgadas). Relación 4:3
+font.size: 12             # Tamaño predeterminado de la fuente
+axes.labelsize: 20	# Tamaño de la fuente de las etiquetas de los ejes
+xtick.labelsize: 13	# Tamaño de la fuente de los ticks en el eje x
+ytick.labelsize: 13	# Tamaño de la fuente de los ticks en el eje y
+axes.titlesize: 20	# Tamaño de la fuente de los títulos de los ejes
+legend.fontsize: 13         # Tamaño de la fuente de las leyendas
+axes.prop_cycle: cycler('color', ['4169e1', 'ff6347', '228b22', '800080', 'ff8C00', '008b8b', 'e377c2', '7f7f7f', 'bcbd22', '17becf']) #[royalblue, tomato, forestgreen, purple, darkorange, darkcyan]
+
+# Configuración de las marcas menores en los ejes
+xtick.minor.visible: True
+ytick.minor.visible: True
+xtick.minor.size: 3.0
+ytick.minor.size: 3.0
+xtick.minor.width: 0.8
+ytick.minor.width: 0.8
